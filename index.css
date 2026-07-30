@@ -1,0 +1,35 @@
+.card{
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.card img{
+    height: 180px;
+    object-fit: cover;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.card .btn{
+    margin-top: auto;
+}
+/* card hover effect */
+.card{
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+/* button hover effect */
+.btn-dark:hover{
+    background-color:#0dcaf0;
+    border-color:#0dcaf0;
+    color:#000;
+}
